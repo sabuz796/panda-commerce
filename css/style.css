@@ -1,0 +1,44 @@
+.subscribe {
+  background-color: #fceae8;
+  height: 200px;
+  padding: 10vw 0;
+  border-radius: 10px;
+}
+
+.carosel-pic {
+  background-color: #fceae8;
+  padding: 60px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.panda-card {
+  border: 0;
+}
+
+.button {
+  background-color: #ff3685;
+  color: white;
+}
+
+.button:hover {
+  color: white;
+}
+
+.carosel-price {
+  color: #ff3685;
+}
+
+@media (max-width: 576px) {
+  main .watch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
